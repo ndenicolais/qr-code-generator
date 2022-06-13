@@ -1,8 +1,9 @@
 # QR Code Generator
 <img src='public\logo-192x192.png'>
+
 > <b>Author: Nicola De Nicolais</b>
 
-This code represents a simple QR code generator app.
+This code represents a simple QR code generator app based on React with the integration of React Router
 
 ## 🚀 Technologies used
 
@@ -13,6 +14,10 @@ React.js is a JavaScript library for creating user interfaces specific to single
 📍 [React Router](https://reactrouter.com/)
 
 React Router is a complete JavaScript routing library that allows you to manage paths within a web application using so-called dynamic routing. It allows navigation between sections of various components in React applications and allows you to change the URL of the browser while keeping the user interface synchronized with the URL.
+
+🔴 [qrcode.react](https://www.npmjs.com/package/qrcode.react)
+
+A React component that permitt to generate QR codes for rendering to the DOM. To install it open the terminal and run `yarn add qrcode.react` or `npm install qrcode.react`
 
 ## 📦 Local development
 In the project folder we can perform several actions:
