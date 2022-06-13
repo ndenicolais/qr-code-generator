@@ -12,12 +12,12 @@ function App() {
 
   const downloadQR = () => {
     // Generate download with use canvas and stream
-    const canvas = document.getElementById("qr-gen");
-    const pngQr = canvas
+    const canvas = document.getElementById("qr-code");
+    const pngQrCode = canvas
       .toDataURL("image/png")
       .replace("image/png", "image/octet-stream");
     let downloadLink = document.createElement("a");
-    downloadLink.href = pngQr;
+    downloadLink.href = pngQrCode;
     downloadLink.download = `${qrValue}.png`;
     document.body.appendChild(downloadLink);
     downloadLink.click();
@@ -28,12 +28,14 @@ function App() {
     <div className="App">
       <h1>QR Code Generator</h1>
       <input onChange={handleOnChange} placeholder="Insert here" />
-      <br />
+      <br /><br />
       <QRCode
-        id="qr-gen"
+        id="qr-code"
         value={qrValue}
-        size={290}
-        level={"H"}
+        size={300}
+        bgColor="yellow"
+        fgColor="black"
+        level={"H"} // H mean High level to restored data (30%)
         includeMargin={true} />
       <p>
         <button type="button" onClick={downloadQR}>

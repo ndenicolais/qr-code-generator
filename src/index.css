@@ -18,13 +18,24 @@ body {
 }
 
 button {
-  border: 0;
-  padding: 1.2rem;
-  color: #222;
-  font-size: 1.3rem;
-  background: #eee;
-  border-radius: var(--space);
+  font-family: 'Consolas';
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: black 4px 4px 0 0;
+  color: black;
   cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  min-width: 150px;
 }
 
 input {

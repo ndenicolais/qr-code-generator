@@ -17,7 +17,7 @@ React Router is a complete JavaScript routing library that allows you to manage 
 
 🔴 [qrcode.react](https://www.npmjs.com/package/qrcode.react)
 
-A React component that permitt to generate QR codes for rendering to the DOM. To install it open the terminal and run `yarn add qrcode.react` or `npm install qrcode.react`
+A React component to generate QR codes for rendering to the DOM. To install it open the terminal and run `yarn add qrcode.react` or `npm install qrcode.react`
 
 ## 📦 Local development
 In the project folder we can perform several actions:
@@ -34,3 +34,14 @@ In the project folder we can perform several actions:
 Open http://localhost:3000 to view the application in the browser.
 - Run `yarn start` 
 - Run `npm run dev`
+
+## ⚙️ Customize QR Code
+
+Customize the QR code setting according to your preferences by editing these parameters:
+
+- value > type of value to input
+- size > size of QR code image
+- bgColor > color of QR code background
+- fgColor > color of QR code symbol
+- level > level of error correction
+- includeMargin > to include QR code margin
