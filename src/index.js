@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <h1>QR Code Generator</h1>
-      <input onChange={handleOnChange} placeholder="Insert here" />
+      <input onChange={handleOnChange} placeholder="Input value here" />
       <br /><br />
       <QRCode
         id="qr-code"
@@ -35,11 +35,11 @@ function App() {
         size={300}
         bgColor="#FEB740"
         fgColor="#EB3F43"
-        level={"H"} // H mean High level to restored data (30%)
+        level={"H"}
         includeMargin={true} />
       <p>
         <button type="button" onClick={downloadQR}>
-          Download QR
+          Download QR Code
         </button>
       </p>
     </div>
