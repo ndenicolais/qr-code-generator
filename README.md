@@ -34,5 +34,3 @@ In the project folder we can perform several actions:
 Open http://localhost:3000 to view the application in the browser.
 - Run `yarn start` 
 - Run `npm run dev`
-
-## ⚙️ Customize
