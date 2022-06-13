@@ -10,6 +10,10 @@ This code represents a simple QR code generator app.
 
 React.js is a JavaScript library for creating user interfaces specific to single-page applications. It allows developers to create large web applications that can modify data without having to reload the page every time.
 
+📍 [React Router](https://reactrouter.com/)
+
+React Router is a complete JavaScript routing library that allows you to manage paths within a web application using so-called dynamic routing. It allows navigation between sections of various components in React applications and allows you to change the URL of the browser while keeping the user interface synchronized with the URL.
+
 ## 📦 Local development
 In the project folder we can perform several actions:
 
