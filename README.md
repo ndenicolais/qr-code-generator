@@ -39,13 +39,13 @@ Open http://localhost:3000 to view the application in the browser.
 
 Customize the QR code's setting according to your preferences by editing these parameters:
 
-- value > type of value to input
-- size > size of QR code's image
-- bgColor > color of QR code's background
-- fgColor > color of QR code's symbol
-- level > level of error correction:
-    - L (Low) > 7% of data bytes can be restored.
-    - M (Medium) > 15% of data bytes can be restored.
-    - Q (Quartile) > 	25% of data bytes can be restored.
-    - H (High) > 30% of data bytes can be restored.
-- includeMargin > to include QR code's margin
+- value -> type of value to input
+- size -> size of QR code's image
+- bgColor -> color of QR code's background
+- fgColor -> color of QR code's symbol
+- level -> level of error correction:
+    - L (Low) -> 7% of data bytes can be restored.
+    - M (Medium) -> 15% of data bytes can be restored.
+    - Q (Quartile) -> 25% of data bytes can be restored.
+    - H (High) -> 30% of data bytes can be restored.
+- includeMargin -> to include QR code's margin
