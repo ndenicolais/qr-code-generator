@@ -33,8 +33,8 @@ function App() {
         id="qr-code"
         value={qrValue}
         size={300}
-        bgColor="yellow"
-        fgColor="black"
+        bgColor="#FEB740"
+        fgColor="#EB3F43"
         level={"H"} // H mean High level to restored data (30%)
         includeMargin={true} />
       <p>
