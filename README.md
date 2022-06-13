@@ -1,5 +1,5 @@
 # QR Code Generator
-
+<img src='public\logo-192x192.png'>
 > <b>Author: Nicola De Nicolais</b>
 
 This code represents a simple QR code generator app.
