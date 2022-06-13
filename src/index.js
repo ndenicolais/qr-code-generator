@@ -9,19 +9,21 @@ function App() {
     const { value } = event.target;
     setQrValue(value);
   };
-  const downloadQRCode = () => {
+
+  const downloadQR = () => {
     // Generate download with use canvas and stream
     const canvas = document.getElementById("qr-gen");
-    const pngUrl = canvas
+    const pngQr = canvas
       .toDataURL("image/png")
       .replace("image/png", "image/octet-stream");
     let downloadLink = document.createElement("a");
-    downloadLink.href = pngUrl;
+    downloadLink.href = pngQr;
     downloadLink.download = `${qrValue}.png`;
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
   };
+
   return (
     <div className="App">
       <h1>QR Code Generator</h1>
@@ -32,11 +34,10 @@ function App() {
         value={qrValue}
         size={290}
         level={"H"}
-        includeMargin={true}
-      />
+        includeMargin={true} />
       <p>
-        <button type="button" onClick={downloadQRCode}>
-          Download QR Code
+        <button type="button" onClick={downloadQR}>
+          Download QR
         </button>
       </p>
     </div>
