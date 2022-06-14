@@ -3,7 +3,7 @@
 
 > <b>Author: Nicola De Nicolais</b>
 
-This code represents a simple QR code generator app based on React with the integration of React Router
+This code represents a simple QR Code Generator app based on React with the integration of React Router
 
 ## 🚀 Technologies used
 
@@ -24,7 +24,7 @@ In the project folder we can perform several actions:
 
 1) Clone this repository from GitHub. Open the terminal and run `git clone https://github.com/ndenicolais/qr-code-generator`
 
-2) In the terminal run    `cd qr-code-generator-main` to enter the project folder.
+2) In the terminal run `cd qr-code-generator-main` to enter the project folder.
 
 3) Install the required dependencies for the application:
 - Run `yarn` 
@@ -35,9 +35,11 @@ Open http://localhost:3000 to view the application in the browser.
 - Run `yarn start` 
 - Run `npm run dev`
 
-## ⚙️ Customize QR Code
+## ⚙️ Customize the code
 
-Customize the QR code's setting according to your preferences by editing these parameters:
+Customize the QR code's aspect according to your preferences by editing these parameters:
+
+📁 index.js
 
 - value -> type of value to input
 - size -> size of QR code's image
