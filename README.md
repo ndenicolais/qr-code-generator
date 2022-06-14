@@ -39,7 +39,7 @@ Open http://localhost:3000 to view the application in the browser.
 
 Customize the QR code's aspect according to your preferences by editing these parameters:
 
-📁 index.js
+📁 index.js file
 
 - value -> type of value to input
 - size -> size of QR code's image
