@@ -60,3 +60,10 @@ a:link {
 a:visited {
   text-decoration: none;
 }
+
+@media (max-width: 770px) {
+
+  .App {
+    font-size: 1em;
+  }
+}
