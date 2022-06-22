@@ -1,6 +1,11 @@
 {
-  "short_name": "QRCG",
   "name": "QR Code Generator",
+  "short_name": "QRCG",
+  "start_url": "",
+  "display": "standalone",
+  "background_color": "#2D86CA",
+  "theme_color": "#000000",
+  "description": "QR code generator",
   "icons": [
     {
       "src": "favicon.ico",
@@ -23,9 +28,5 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
