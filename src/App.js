@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import QRCode from "qrcode.react";
-import "./index.css";
+import "./App.css";
 
 function App() {
   const [qrValue, setQrValue] = useState("qr_code_generated");
@@ -35,8 +35,8 @@ function App() {
         id="qr-code"
         value={qrValue}
         size={300}
-        bgColor="#FEB740"
-        fgColor="#EB3F43"
+        bgColor="#8C383A"
+        fgColor="#DCA349"
         level={"H"}
         includeMargin={true}
         />

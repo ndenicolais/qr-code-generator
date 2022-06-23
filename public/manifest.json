@@ -3,8 +3,8 @@
   "short_name": "QRCG",
   "start_url": "",
   "display": "standalone",
-  "background_color": "#2D86CA",
-  "theme_color": "#000000",
+  "background_color": "#F8F7DA",
+  "theme_color": "#8C383A",
   "description": "QR code generator",
   "icons": [
     {

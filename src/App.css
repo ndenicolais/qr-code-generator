@@ -1,22 +1,22 @@
 body {
-  background-color: #2D86CA;
+  background-color: #F8F7DA;
   font-family: 'Consolas';
 }
 
 .App {
   font-size: 180%;
   text-align: center;
-  color: white;
-  text-shadow: 0 0 10px black, 0 0 10px black;
+  color: #8C383A;
+  text-shadow: 0 0 10px #DCA349, 0 0 10px #DCA349;
 }
 
 button {
   font-family: 'Consolas';
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid #8C383A;
   border-radius: 30px;
-  box-shadow: black 4px 4px 0 0;
-  color: black;
+  box-shadow: #8C383A 4px 4px 0 0;
+  color: #8C383A;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -40,12 +40,12 @@ input {
   width: 50%;
   padding: 0.8rem 0.8rem;
   border-radius: 30px;
-  border: 2px solid black;
+  border: 2px solid #8C383A;
 }
 
 .footer{
   margin-top: 1rem;
-  background-color: #2D86CA;
+  background-color: #F8F7DA;
   position: fixed;
   bottom: 0;
   left: 0;
