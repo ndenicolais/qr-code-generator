@@ -31,9 +31,7 @@ yarn add qrcode.react
 ```
 
 ## 🛠️ Installation Steps
-In the project folder we can perform several actions:
-
-1) Clone this repository from GitHub.
+1) Clone this repository from GitHub
 ```
 git clone https://github.com/ndenicolais/qr-code-generator
 ```
@@ -55,7 +53,7 @@ npm start
 yarn start
 ```
 
-5) Open "localhost" to view the application in the browser.
+5) Open [http://localhost:3000](http://localhost:3000) to view the application in the browser
 
 ## ⚙️ Customization
 
